@@ -11,6 +11,9 @@
 </head>
 <body>
 
+  <!-- Flashlight Effect -->
+  <div id="flashlight"></div>
+
   <!-- Navigation -->
   <header class="navbar">
     <div class="container nav-container">
@@ -73,7 +76,7 @@
       
       <div class="about-grid">
         <div class="about-text">
-          <ul>
+          <ul class="bullet-list">
             <li>I am a driven student developer who is eager to explore the world of software development. While I am still learning, I actively focus on building real, practical things and care deeply about clean design and functional code.</li>
             <li>My current studies and projects revolve around web development, Android applications, and hardware integration. I'm dedicated to the challenge of turning complex problems into elegant, user-friendly solutions.</li>
           </ul>
@@ -89,9 +92,6 @@
             <span class="tag">Firebase</span>
             <span class="tag">Arduino</span>
             <span class="tag">Git / GitHub</span>
-            <span class="tag">Programming</span>
-            <span class="tag">Technology</span>
-            <span class="tag">Problem Solving</span>
           </div>
         </div>
       </div>
@@ -128,8 +128,8 @@
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <span class="mobile-year">2024</span>
-            <h3>DSTF Robotics Individual Research Awardee</h3>
-            <p>• With Honors<br>• Created an Android-based bike GPS tracking and anti-theft project.<br>• Participated in STEM and research projects.</p>
+            <h3>DSTF Robotics Individual Research Participant</h3>
+            <p>• With Honors<br>• Created an Android-based bike GPS tracking and anti-theft project.<br>• Participated in research project.</p>
           </div>
         </div>
         <div class="timeline-item">
@@ -189,35 +189,58 @@
         <div class="section-line"></div>
       </div>
 
-      <div class="featured-project">
-        <div class="featured-preview">
-          <div class="wireframe">
-            <div class="dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
-            <div class="wireframe-content">BTrap Prototype Preview</div>
-          </div>
-        </div>
-        <div class="featured-info">
-          <p class="accent-label">Featured Project</p>
-          <h3 class="featured-title">BTrap — Bike GPS Tracker</h3>
-          <div class="featured-desc">
-            <p>A bike security and tracking project exploring GPS/location technology, notifications, weather information, and an anti-theft mechanism. Developed as an academic prototype exploring hardware and software integration.</p>
-          </div>
-          <div class="tech-tags">
-            <span class="tech-tag">Arduino</span>
-            <span class="tech-tag">Firebase</span>
-            <span class="tech-tag">Android</span>
-            <span class="tech-tag">GSM</span>
-            <span class="tech-tag">GPS / Location</span>
-          </div>
-        </div>
-      </div>
-
       <div class="split-section">
-        <div class="other-research">
-          <h3>Other Research</h3>
-          <a href="#" class="research-link">
-            <h4>STEM & Research Projects <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></h4>
-            <p>Research and academic projects involving robotics education, technology, documentation, and the development of 21st-century skills.</p>
+        
+        <div class="other-works">
+          <h3>PROJECTS</h3>
+          
+          <a href="https://ijrpr.com/uploads/V6ISSUE4/IJRPR41850.pdf" target="_blank" class="research-link block-card">
+            <h4>BTrap — Bike GPS Tracker <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></h4>
+            <ul class="bullet-list-small">
+              <li>A bike security and tracking project exploring GPS/location technology, notifications, weather information, and an anti-theft mechanism.</li>
+              <li>Developed as an academic prototype exploring hardware and software integration.</li>
+            </ul>
+            <div class="tech-tags-inline">
+              <span class="tech-label-inline">Technologies:</span>
+              <span class="tech-tag-sm">Arduino</span>
+              <span class="tech-tag-sm">Firebase</span>
+              <span class="tech-tag-sm">Android</span>
+              <span class="tech-tag-sm">GSM</span>
+              <span class="tech-tag-sm">GPS</span>
+            </div>
+          </a>
+
+          <a href="#" class="research-link block-card">
+            <h4>Real Estate Property Management System <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></h4>
+            <ul class="bullet-list-small">
+              <li>Developed using Java as a console-based property management application.</li>
+              <li>Manages property listings, buyer information, and sales records.</li>
+              <li>Uses arrays, methods, conditional statements, and structured programming logic.</li>
+              <li>Includes functions for adding properties and buyers, recording sales, and viewing completed transactions.</li>
+              <li>Implements basic validation by checking property availability and buyer budget before recording a sale.</li>
+            </ul>
+          </a>
+
+          <a href="#" class="research-link block-card">
+            <h4>Onsite Event Registration System <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></h4>
+            <ul class="bullet-list-small">
+              <li>Developed using Java Swing and JSON as an offline desktop application.</li>
+              <li>Provides event and attendee management through CRUD operations.</li>
+              <li>Includes walk-in registration, attendee editing, cancellation, and status management.</li>
+              <li>Uses JSON file handling to save and load event and attendee data locally.</li>
+              <li>Implements duplicate detection and event capacity validation to prevent invalid registrations.</li>
+              <li>Includes real-time search, filtering, and sorting for managing event records.</li>
+              <li>Features a backup and restore system for recovering attendee data while maintaining capacity and duplicate checks.</li>
+            </ul>
+            <div class="tech-tags-inline">
+              <span class="tech-label-inline">Technologies:</span>
+              <span class="tech-tag-sm">Java</span>
+              <span class="tech-tag-sm">Java Swing</span>
+              <span class="tech-tag-sm">JSON</span>
+              <span class="tech-tag-sm">OOP</span>
+              <span class="tech-tag-sm">CRUD</span>
+              <span class="tech-tag-sm">File Handling</span>
+            </div>
           </a>
         </div>
         
@@ -257,10 +280,10 @@
       </div>
       
       <div class="contact-links">
-        <a href="https://github.com/gaarrrrr" target="_blank" >GitHub</a> <span>•</span>
-        <a href="https://www.instagram.com/gi.koipof/" target="_blank" >Instagram</a> <span>•</span>
+        <a href="https://github.com/gaarrrrr" target="_blank">GitHub</a> <span>•</span>
+        <a href="https://www.instagram.com/gi.koipof/" target="_blank">Instagram</a> <span>•</span>
         <a href="https://www.facebook.com/Gagar0817/" target="_blank">Facebook</a> <span>•</span>
-        <a href="https://x.com/gi_koipof/" target="_blank" >X</a> <span></span>
+        <a href="https://x.com/gi_koipof/" target="_blank">X</a> <span></span>
       </div>
     </section>
   </main>
@@ -280,3 +303,6 @@
 
 </body>
 </html>
+
+
+
