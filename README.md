@@ -7,7 +7,7 @@ The portfolio uses a minimalist and professional dark-mode design and demonstrat
 
 # Live Site
 
-- 🔗 https://<gaarrrrr.github.io>.github.io
+- 🔗 https://<gaarrrrr>.github.io
 
 # Sections
 - About Me — a brief introduction and links to my professional and social profiles
