@@ -15,7 +15,7 @@ The portfolio uses a minimalist and professional dark-mode design and demonstrat
 - Course Activities — HTML Activity 1.1: Fashion Blog, HTML Activity 1.2: Wine Festival Schedule, and CSS Activity 2.1: Davies Burger
 - Projects & Skills — selected programming, academic, and personal projects, along with my current technical skills
 - Contact — ways to connect with me through my social and professional profiles
-# Technologies Used
+# Programs Used
 - HTML5
 - CSS3
 - JavaScript
